@@ -4,6 +4,7 @@
   text-align: center;
 }
 
+
 .phrase{
   font-size: 10px;
   text-align: center;
@@ -31,8 +32,9 @@
 
 .features{
   text-align: center;
-  margin: 30px;
+  margin-top: 30px;
   padding: 20px;
+  font-size: 30px;
 
   @media (min-width:40em){
     font-size: 50px;
@@ -45,15 +47,15 @@
 .gallery{
   margin-top: 40px;
   text-align: center;
+  font-size: 15px;
 
 }
 
 .row{
 
   @media (max-width: 39.9375em){
-    width: 60%;
-    height: 40%;
     gap: 20px;
+    padding: 30px;
     
   }
 
@@ -68,4 +70,40 @@
     text-align: start;
   }
 
+}
+
+h4{
+  padding: 20px;
+}
+
+
+.about {
+  text-align: center;
+
+  
+}
+
+.about-title{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+
+  @media (min-width:40em) {
+    font-size: 50px;
+  }
+  font-size: 30px;
+}
+
+.inspire{
+  padding: 20px;
+  text-align: center;
+  width: 40%;
+  position: relative;
+  left: 30%;
+
+  @media (max-width:39.9375em) {
+    width: 100%;
+    position: relative;
+    left: 0%;
+  }
 }
